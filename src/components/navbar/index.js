@@ -1,27 +1,29 @@
 import "./style.css"
-import Logo from "../../assets/images/logo.png" 
-import {FaDiscord,FaTwitter,FaInstagram} from 'react-icons/fa'
+import Logo from "../../assets/images/logo.png"
+import { FaTwitter, FaInstagram } from 'react-icons/fa'
+import { SiDiscord} from 'react-icons/si'
 
-function Navbar(){
-    return(
-        <div className="main_container">
-            <div className ='logo_container'>
-            <img src={Logo} alt='logo' />
+
+function Navbar() {
+    return (
+        <div className="nav_main_container">
+            <div className='logo_container'>
+                <img src={Logo} alt='logo' />
             </div>
-            <div className='list_container'> 
-            <ul>
-                <li>About</li>
-                <li>Roadmap</li>
-                <li>Team</li>
-            </ul>
+            <div className='list_container'>
+                <ul>
+                    <li>About</li>
+                    <li>Roadmap</li>
+                    <li>Team</li>
+                </ul>
             </div>
-            <div className="icon_container"> 
-            <span> <FaDiscord/> </span>
-            <span> <FaTwitter/></span>
-            <span> <FaInstagram/> </span> 
+            <div className="icon_container">
+                <span> <SiDiscord /> </span>
+                <span> <FaTwitter /></span>
+                <span> <FaInstagram /> </span>
             </div>
-            <div className="button_container"> 
-            <button> CONNECT WALLET </button>           
+            <div className="button_container">
+                <button> CONNECT WALLET </button>
             </div>
         </div>
     )

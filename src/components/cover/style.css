@@ -1,0 +1,92 @@
+.cover_container{
+    background: transparent url('../../assets/images/bg1.png') ;
+    background-size: contain;
+    background-position: center;
+
+    width: 100%;
+}
+.sub_container{
+    margin: auto;
+    position: relative;
+    margin-top: 120px;
+    width: 100%;
+    max-width: 1440px;
+}
+.image_1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.image_2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.text_center_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text_center_container p{
+    text-align: center;
+    font: normal normal bold 32px/51px Roboto;
+    letter-spacing: 1.28px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.input_container{
+    background-color: #FFFFFF;
+    width: 373px;
+    height: 58px;
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    justify-content:space-between ;
+
+}
+.minus_button{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 39px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.plus_button{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 35px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.no_button{
+    text-align: center;
+    letter-spacing: 0px;
+    font-weight: 500;
+    color: #000000;
+    font-size: 28px;
+    font-family: Roboto;
+}
+
+.btn_container{
+    font: normal normal 900 32px/34px Fidel;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 58px; 
+    background: #D53434 0% 0% no-repeat padding-box;
+    border-radius: 29px;
+    width: 244px;
+    height: 68px;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 177px;
+}

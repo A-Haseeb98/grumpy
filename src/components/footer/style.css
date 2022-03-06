@@ -1,0 +1,24 @@
+.footer_container{
+    background-color: #003063;
+    text-align: center;
+    padding: 50px;
+}
+.footer_container p {
+    text-align: center;
+    font: normal normal 300 22px/43px Roboto;
+    letter-spacing: 1.1px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.footer_icon_container{
+    font-size: 24px;
+    color: white;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}

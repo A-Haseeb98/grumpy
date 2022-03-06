@@ -1,11 +1,42 @@
-.text_cont{
-text-align: left;
-font: normal normal medium 29px/39px Roboto;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-background-color: black;
+.what_main_cont{
+    background: transparent url('../../assets/images/bg2.png') 0% 0% no-repeat padding-box;
+    width: 100%;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+.what_main_cont h1{
+margin-bottom: 50px
+}
+
+
+
 .sec_main{
+    width: 100%;
+    max-width: 1161px;
+    margin: auto;
     display: flex;
+    align-items: center;
+}
+
+
+.sec_text_cont{
+    text-align: left;
+    letter-spacing: 0px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 50%;
+}
+.sec_text_cont p{
+    font: normal normal medium 29px/39px Roboto !important;
+    font-size: 29px;
+}
+
+.picture_cont{
+    width: 50%;
+    text-align: center;
+}
+.picture_cont img{
+    width: 65%;
 }

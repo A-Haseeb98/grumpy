@@ -1,0 +1,102 @@
+.roadmap_container{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background: transparent url('../../assets//images/bg3.png') 0% 0% no-repeat padding-box;
+    width: 100%;
+    background-color: darkgoldenrod;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sub_roadmap_container{
+    background: #6CB1ED 0% 0% no-repeat padding-box;
+    width: 100%;
+    max-width: 1161px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.mainhead h1{
+    color: #FCE956;
+}
+.watch_container{
+    margin-top: 50px;
+    background-color: #FCE956;
+    display: flex;
+    padding: 0px 20px;
+}
+.watch_container .watch_wrapper{
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec_head h2{
+    text-align: left;
+    font-weight: normal;
+    font-size: 48px;
+    font-family: Fidel;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-left: 10px;
+
+}
+.sec_head p{
+    padding-left: 10px;
+    text-align: left;
+    /* font: normal normal medium 22px/34px Roboto; */
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #0D0D0D;
+    opacity: 1;
+    font-size: 22px;
+}
+.roadmap_steps_wrapper{
+    margin-top: 100px;
+}
+
+.step_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.road_num{
+    border: 3px solid #000000;
+    opacity: 1;
+    width: 186px !important;
+    height: 108px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.road_num h1{
+    margin: 0;
+    font-family: Fidel;
+    font-weight: 900;
+    font-size: 50px;
+}
+.road_p{
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    /* font: normal normal medium 28px/43px Roboto; */
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 28px;
+    letter-spacing: 0px;
+    color: #030303;
+    opacity: 1;
+    font-size: 28px;
+    margin: 0;
+}
+.road_p p{
+  margin: 0;
+}

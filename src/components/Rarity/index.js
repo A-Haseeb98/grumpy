@@ -1,27 +1,28 @@
 import "./style.css"
 
-function Rarity(){
-    return(
-        <div className="main_first">
+function Rarity() {
+    return (
+        <div className="rarity_container">
             <div>
                 <h1 className="theme_heading">RARITY</h1>
             </div>
-            <div className="main_sec"> 
-                <div>
+            <div className="main_sec">
+                <div className="rarity_wrapper">
                     <h2>STATS</h2>
                     <p>
                         <span className="blue_col">Mint Prices: </span>
-                        <span className="white_col"> 
-                        1 - 2,500 NFT’s will be sold at 0.1 ETH <br/>
-                        2,501 - 5,000 NFT’s will be sold at 0.2 ETH <br/>
-                        5,001 - 10,000 NFT’s will be sold at 0.25 ETH <br/> 
+                        <span className="white_col">
+                            1 - 2,500 NFT’s will be sold at 0.1 ETH <br />
+                            2,501 - 5,000 NFT’s will be sold at 0.2 ETH <br />
+                            5,001 - 10,000 NFT’s will be sold at 0.25 ETH <br />
                         </span>
                     </p>
+                    {/* <br /> */}
                     <p>
                         <span className="blue_col">Max. mint amount per wallet: </span>
                         <span className="white_col">100</span>
                     </p>
-                    <p> 
+                    <p>
                         <span className="blue_col">Maxim. Min amount whitelist: </span>
                         <span className="white_col">3000</span>
                     </p>
