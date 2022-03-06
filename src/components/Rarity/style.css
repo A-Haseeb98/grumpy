@@ -1,0 +1,28 @@
+.main_sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.main_first{
+    background-color: darkblue;
+}
+.traits{
+    width: 250px;
+}
+.traits p {
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+}
+.blue_col{
+font: normal normal 900 36px/59px Fidel;
+letter-spacing: 0px;
+color: #7BD1FF;
+opacity: 1;
+}
+.white_col{
+font: normal normal 900 37px/60px Fidel;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
