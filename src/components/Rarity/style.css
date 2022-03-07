@@ -52,3 +52,69 @@
     letter-spacing: 0px;
     color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 768px){
+    .rarity_container{
+        background: #2F559D 0% 0% no-repeat padding-box;
+        width: 100%;
+        margin: 0 auto;
+        padding: 70px 20px;
+    }
+    .main_sec{
+        display: block;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        max-width: none;
+        margin: 0 auto;
+    }
+    .rarity_wrapper{
+        width: 100%;
+    }
+    
+    .rarity_wrapper h2 , .traits h2 {
+        text-align: left;
+        font: normal normal 900 35px/44px Fidel;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    
+    .main_first{
+    }
+    .traits{
+        width: 100%;
+    }
+    .rarity_wrapper p {
+        line-height: 34px;
+        margin: 0%;
+    
+    }
+    .traits p {
+     display: flex;
+     justify-content: space-between;
+     width: 65%;
+     line-height: 34px;
+     margin: 0%;
+    }
+    .blue_col{
+        font-weight: normal !important;
+        font-family: Fidel;
+        font-size: 20px;
+        line-height: 34px;
+        letter-spacing: 0px;
+        color: #7BD1FF;
+
+    }
+    .white_col{
+        font-weight: normal;
+        font-family: Fidel;
+        font-size: 21px;
+        line-height: 34px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    
+}
