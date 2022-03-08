@@ -91,6 +91,8 @@
         opacity: 1;
         margin: 0;
         margin-bottom: 12px;
+        margin-left: -20px;
+        margin-top: 15px;
     }
     .faq_wrapper p {
         text-align: left;
@@ -100,11 +102,12 @@
         color: #000000;
         opacity: 1;
         margin: 0;
+        margin-left: -20px;
     }
     .last_sect{
         margin: auto;
-        margin-top: 30px;
-        width: 50%;
+        margin-top: 55px;
+        width: 100%;
         text-align: center;
     }
     .last_sect h1{
@@ -117,10 +120,15 @@
     .last_sect p{
         font: normal normal normal 12px/17px Roboto;
         font-size: 12px;
+        line-height: 17px;
         letter-spacing: 0px;
         color: #000000;
         opacity: 1;
         margin: 0;
         margin-bottom: 20px;
+    }
+    .discord_cont img{
+        width: 39px;
+        margin-bottom: 0;
     }
 }

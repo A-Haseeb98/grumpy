@@ -61,11 +61,13 @@ margin-bottom: 50px
         font-family: Roboto;
         color: #FFFFFF;
         width: 100%;
+        margin-bottom: 30px;
     }
     .sec_text_cont p{
         font: normal normal medium 18px/26px Roboto !important;
         font-size: 18px;
         text-align: center;
+        line-height: 26px;
     }
     
     .picture_cont{

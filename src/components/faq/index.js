@@ -46,7 +46,7 @@ function Faq() {
             <div className="last_sect">
                 <h1>STILL HAVE QUESTIONS ?</h1>
                 <p>Head to our Discord to learn more and ask any questions</p>
-                <span> <img src={discord} alt='discord'/></span>
+                <span className="discord_cont"> <img src={discord} alt='discord'/></span>
             </div>
         </div>
     )

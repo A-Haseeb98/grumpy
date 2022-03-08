@@ -126,6 +126,8 @@
     }
     .watch_container{
         margin-top: 20px;
+        margin-right: 11px;
+        margin-left: 11px;
         background-color: #FCE956;
         display: flex;
         padding: 11px 8px;
@@ -164,7 +166,7 @@
         margin: 0%;
     }
     .roadmap_steps_wrapper{
-        margin-top: 100px;
+        margin-top: 45px;
     }
     
     .step_container{
@@ -172,13 +174,15 @@
         justify-content: flex-start;
         align-items: center;
         margin-bottom: 50px;
+        margin-right: 21px;
+        margin-left: 21px;
     }
     
     .road_num{
         border: 3px solid #000000;
         opacity: 1;
-        width: 115px !important;
-        height: 67px;
+        width: 200px !important;
+        height: 70px !important;
         text-align: center;
         display: flex;
         justify-content: center;
