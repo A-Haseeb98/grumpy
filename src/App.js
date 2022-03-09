@@ -6,18 +6,24 @@ import Team from './components/team';
 import Faq from "./components/faq"
 import What_section from './components/what_section';
 import Footer from './components/footer';
+import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div className='App'>
-       {/* <Cover/> */}
-       <What_section/>
-       <Rarity/>
-       <Roadmap/>
-       <Team/>
-       <Faq/>
-       <Footer/>
-    </div>
+    <Router>
+      <Switch>
+        <div className='App'>
+          <Cover />
+          <What_section />
+          <Rarity />
+          <Roadmap />
+          <Team />
+          <Faq />
+          <Footer />
+        </div>
+      </Switch>
+    </Router>
+
   );
 }
 

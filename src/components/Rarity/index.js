@@ -17,7 +17,6 @@ function Rarity() {
                             5,001 - 10,000 NFT’s will be sold at 0.25 ETH <br />
                         </span>
                     </p>
-                    {/* <br /> */}
                     <p>
                         <span className="blue_col">Max. mint amount per wallet: </span>
                         <span className="white_col">100</span>

@@ -8,12 +8,14 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    width: 100%;
+    width: 95%;
     max-width: 1161px;
     margin: 0 auto;
+    margin-top: 80px;
+
 }
 .rarity_wrapper{
-    width: 60%;
+    width: 64%;
 }
 
 .rarity_wrapper h2 , .traits h2 {
@@ -26,7 +28,7 @@
 .main_first{
 }
 .traits{
-    width: 40%;
+    width: 36%;
 }
 .rarity_wrapper p {
     line-height: 40px;
@@ -51,6 +53,7 @@
     font-size: 37px;
     letter-spacing: 0px;
     color: #FFFFFF;
+    padding-left: 10px;
 }
 
 
@@ -86,6 +89,7 @@
     }
     .traits{
         width: 100%;
+        margin-top: 50px;
     }
     .rarity_wrapper p {
         line-height: 34px;
@@ -115,6 +119,7 @@
         line-height: 34px;
         letter-spacing: 0px;
         color: #FFFFFF;
+        
     }
     
 }

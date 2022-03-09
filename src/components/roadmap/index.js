@@ -3,7 +3,7 @@ import watch from "../../assets/images/watch.png"
 
 function Roadmap() {
     return (
-        <div className="roadmap_container">
+        <div className="roadmap_container" id="roadmap">
             <div className="sub_roadmap_container">
                 <div className="mainhead">
                     <h1 className="theme_heading">ROADMAP</h1>

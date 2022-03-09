@@ -1,15 +1,18 @@
+.m_bear_double, .m_center_head {
+    display: none;
+}
+
 .cover_container{
     background: transparent url('../../assets/images/bg1.png') ;
     background-size: contain;
     background-position: center;
-
     width: 100%;
 }
 .sub_container{
     margin: auto;
     position: relative;
     margin-top: 120px;
-    width: 100%;
+    width: 95%;
     max-width: 1440px;
 }
 .image_1{
@@ -22,9 +25,8 @@
     bottom: 0;
     right: 0;
 }
-
-
 .text_center_container{
+    z-index: 3333 !important;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -32,6 +34,8 @@
     align-items: center;
 }
 .text_center_container p{
+    z-index: 3333 !important;
+
     text-align: center;
     font: normal normal bold 32px/51px Roboto;
     letter-spacing: 1.28px;
@@ -40,6 +44,8 @@
 }
 
 .input_container{
+    z-index: 3333 !important;
+
     background-color: #FFFFFF;
     width: 373px;
     height: 58px;
@@ -48,7 +54,9 @@
     align-items: center;
     padding: 0 15px;
     justify-content:space-between ;
-
+}
+.desk_img{
+    z-index: 22;
 }
 .minus_button{
     text-align: center;
@@ -57,6 +65,7 @@
     font-size: 39px;
     font-family: Roboto;
     font-weight: 500;
+    cursor: pointer;
 }
 .plus_button{
     text-align: center;
@@ -65,6 +74,8 @@
     font-size: 35px;
     font-family: Roboto;
     font-weight: 500;
+    cursor: pointer;
+
 }
 .no_button{
     text-align: center;
@@ -74,7 +85,6 @@
     font-size: 28px;
     font-family: Roboto;
 }
-
 .btn_container{
     font: normal normal 900 32px/34px Fidel;
     letter-spacing: 0px;
@@ -89,4 +99,125 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 177px;
+    cursor: pointer;
+    z-index: 22;
+
+}
+
+@media screen and (max-width: 768px){
+    .m_bear_double, .m_center_head {
+        display: block;
+    }
+    .cover_container{
+        background: transparent url('../../assets/images/m_cover.png') ;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 0px;
+    }
+    .sub_container{
+        margin: auto;
+        position: relative;
+        margin-top: 50px;
+ 
+    }
+    .image_1{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: none;
+    }
+    .image_2{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: none;
+    }
+    .text_center_container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text_center_container img.desk_img{
+        display: none;
+       
+    }
+    .m_center_head{
+        width: 100%;
+
+        max-width: 340px;
+    }
+    .text_center_container p{
+        text-align: center;
+        font: normal normal bold 23px/37px Roboto;
+        letter-spacing: 0.92px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .input_container{
+        background-color: #FFFFFF;
+        width: 274px;
+        height: 42px;
+        border-radius: 29px;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+        justify-content:space-between ;
+    }
+    .minus_button{
+        text-align: center;
+        letter-spacing: 0px;
+        color: #000000;
+        font-size: 30px;
+        font-family: Roboto;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .plus_button{
+        text-align: center;
+        letter-spacing: 0px;
+        color: #000000;
+        font-size: 26px;
+        font-family: Roboto;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .no_button{
+        text-align: center;
+        letter-spacing: 0px;
+        font-weight: 500;
+        color: #000000;
+        font-size: 20px;
+        font-family: Roboto;
+    }
+    .btn_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font: normal normal 900 23px/50px Fidel;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        line-height: 58px; 
+        width: 179px;
+        height: 50px;
+        /* UI Properties */
+        border-radius: 34px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .m_bear_double{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .m_bear_double img{
+        width: 100%;
+        max-width: 600px;
+    }
+    
 }

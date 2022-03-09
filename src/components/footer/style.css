@@ -22,7 +22,14 @@
     justify-content: space-between;
     margin: auto;
 }
+.footer_icon_container span{
+   cursor: pointer;
 
+}
+.footer_icon_container span:hover{
+    color: #7BD1FF ;
+
+}
 @media screen and (max-width: 768px){
     .footer_container{
         background-color: #003063;

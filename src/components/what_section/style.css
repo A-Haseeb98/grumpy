@@ -9,7 +9,7 @@
 margin-bottom: 50px
 }
 .sec_main{
-    width: 100%;
+    width: 95%;
     max-width: 1161px;
     margin: auto;
     display: flex;
@@ -61,7 +61,7 @@ margin-bottom: 50px
         font-family: Roboto;
         color: #FFFFFF;
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .sec_text_cont p{
         font: normal normal medium 18px/26px Roboto !important;

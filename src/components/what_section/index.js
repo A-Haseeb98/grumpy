@@ -3,7 +3,7 @@ import bear3 from "../../assets/images/bear3.png"
 
 function What_section() {
     return (
-        <div className="what_main_cont">
+        <div className="what_main_cont" id="about">
 
                 <div>
                     <h1 className="theme_heading">WHAT THE FUCK IS THIS?</h1>

@@ -7,7 +7,7 @@
     color: #FCE956 ;
 }
 .faq_section_container{
-    width: 100%;
+    width: 95%;
     max-width: 1161px;
     margin: 0 auto;
     margin-top: 50px;
@@ -59,10 +59,13 @@
     margin: 0;
     margin-bottom: 20px;
 }
+.discord_cont img{
+    cursor: pointer;
+}
 @media screen and (max-width: 768px){
     .faq_container{
         background-color: #5496E3;
-        padding: 70px 20px;
+        padding: 50px 20px;
     
     }
     .faq_main_head h1{
