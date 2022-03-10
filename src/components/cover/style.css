@@ -7,6 +7,9 @@
     background-size: contain;
     background-position: center;
     width: 100%;
+    background-repeat: repeat-x;
+    background-color: #6e71c7;
+
 }
 .sub_container{
     margin: auto;
@@ -19,11 +22,17 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
 }
 .image_2{
     position: absolute;
     bottom: 0;
     right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .text_center_container{
     z-index: 3333 !important;
@@ -101,7 +110,11 @@
     margin-bottom: 177px;
     cursor: pointer;
     z-index: 22;
+    transition: all .2s ease-in-out; 
 
+}
+.btn_container:hover{
+    opacity: 0.9;
 }
 
 @media screen and (max-width: 768px){
@@ -214,6 +227,9 @@
         width: 100%;
         margin: auto;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
     .m_bear_double img{
         width: 100%;

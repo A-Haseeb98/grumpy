@@ -24,6 +24,7 @@
 }
 .footer_icon_container span{
    cursor: pointer;
+   transition: all .2s ease-in-out; 
 
 }
 .footer_icon_container span:hover{

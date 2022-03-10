@@ -31,7 +31,7 @@ function Faq() {
                     <p>We want to be fair and compensate both early adopters and engaged members. There will be several ways to get whitelisted to be fair. Join our Discord to find out how.</p>
                 </div>
                 <div className="faq_wrapper">
-                    <h3>How can I buy a Grumpy Bear Town Club ?</h3>
+                    <h3>How can I buy a Grumpy Bear Town Club?</h3>
                     <p>
                         1. Download the metamask.io extension to your browser
                         <br /> 2. Purchase Ethereum from various exchanges, such as Coinbase or Binance
@@ -46,7 +46,7 @@ function Faq() {
             <div className="last_sect">
                 <h1>STILL HAVE QUESTIONS ?</h1>
                 <p>Head to our Discord to learn more and ask any questions</p>
-                <span className="discord_cont"> <img src={discord} alt='discord'/></span>
+                <span  onClick={() => window.open('https://discord.com/invite/grumpybeartownclub', '_blank')} className="discord_cont"> <img src={discord} alt='discord'/></span>
             </div>
         </div>
     )

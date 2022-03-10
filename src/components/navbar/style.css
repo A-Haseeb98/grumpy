@@ -29,6 +29,8 @@
 }
 .list_container ul li a:hover {
     color: #7BD1FF ;
+    transition: all .2s ease-in-out; 
+
 }
 
 .icon_container{
@@ -43,6 +45,8 @@
 }
 .icon_container span {
     cursor:pointer;  
+    transition: all .2s ease-in-out; 
+
 
 }
 .icon_container span:hover{
@@ -64,6 +68,8 @@
     width: 217px;
     height: 58px;
     cursor: pointer;
+    transition: all .2s ease-in-out; 
+
 }
 .button_container button:hover{
     opacity: 0.9;
