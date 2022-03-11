@@ -10,6 +10,7 @@ function Faq() {
             </div>
 
             <div className="faq_section_container">
+
                 <div className="faq_wrapper">
                     <h3>What is the Grumpy Bear Town Club?</h3>
                     <p>Grumpy Bear Town Club is a collection of 10,000 unique NFTs living in bearish town on the ETH block chain. The Project is inspired by our love for bears and NFTs.</p>
@@ -27,8 +28,12 @@ function Faq() {
                     <p>Of course! Stage 1 «PIONEER GRUMPY BEARS» We will host a presale event “stage 1- Pioneer Grumpy Bears”, starting XX. The presale will last XX hours and be accessible to ONLY WHITELISTED •MEMBERS!. This will last X hours and will BE ACCESIBLE just for WHITLISTED MEMBERS.</p>
                 </div>
                 <div className="faq_wrapper">
+                    <h3>Will there be a presale?</h3>
+                    <p>There will be a presale. This will only be available to whitelist members. There are 1,000 seats available. The price in the presale will be only 0.1 ETH. You can find out how to qualify for the whitelist in our Discord channel.</p>
+                </div>
+                <div className="faq_wrapper">
                     <h3>How do I get on the whitelist?</h3>
-                    <p>We want to be fair and compensate both early adopters and engaged members. There will be several ways to get whitelisted to be fair. Join our Discord to find out how.</p>
+                    <p>Our goal is to build a strong community and grow organically. We want to reward our community and give the most committed members the opportunity to get the NFTs at a lower price. You can find out exactly what activities you need to complete on our Discord channel. Let's Grump the Bear!</p>
                 </div>
                 <div className="faq_wrapper">
                     <h3>How can I buy a Grumpy Bear Town Club?</h3>
@@ -46,7 +51,7 @@ function Faq() {
             <div className="last_sect">
                 <h1>STILL HAVE QUESTIONS ?</h1>
                 <p>Head to our Discord to learn more and ask any questions</p>
-                <span  onClick={() => window.open('https://discord.com/invite/grumpybeartownclub', '_blank')} className="discord_cont"> <img src={discord} alt='discord'/></span>
+                <span onClick={() => window.open('https://discord.com/invite/grumpybeartownclub', '_blank')} className="discord_cont"> <img src={discord} alt='discord' /></span>
             </div>
         </div>
     )

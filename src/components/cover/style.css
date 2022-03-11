@@ -4,13 +4,13 @@
 
 .cover_container{
     background: transparent url('../../assets/images/bg1.png') ;
-    background-size: auto 100%;
-    /* background-size: contain; */
+    background-size: 100%;    /* background-size: auto auto; */
 
     background-position: center bottom;
     width: 100%;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-color: #6e71c7;
+    height: auto;
 
 }
 .sub_container{

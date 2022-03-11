@@ -51,7 +51,9 @@ function Team() {
                 <div className="team_member_wrapper">
                         <img src={new1} alt="Mrwonkerz" />
                         <h3>@MrWonkerz</h3>
-                        <p>Technical support and development</p>
+                        <p>Technical Support and</p>
+                        <p> Development</p>
+
                 </div>
             </div>
             <div className='carousal_contaier'>
@@ -108,8 +110,8 @@ function Team() {
                     <SwiperSlide>  <div className="team_member_wrapper">
                         <img src={new1} alt="Mrwonkerz" />
                         <h3>@MrWonkerz</h3>
-                        <p>Technical support and</p>
-                        <p>development</p>
+                        <p>Technical Support and</p>
+                        <p>Development</p>
                     </div></SwiperSlide>
                     
 

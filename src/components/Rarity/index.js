@@ -24,7 +24,7 @@ function Rarity() {
                     </p>
                     <p>
                         <span className="blue_col">Max. Mint amount whitelist: </span>
-                        <span className="white_col">1000 pcs</span>
+                        <span className="white_col">1'000 pcs</span>
                     </p>
                     <p>
                         <span className="blue_col">Token name: </span>
