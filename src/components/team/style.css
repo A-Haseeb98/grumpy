@@ -84,9 +84,18 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-end;
+        margin: auto;
     }
     .team_member_wrapper img{
         width: 150px;
+    }
+     .team_member_wrapper{
+        display: flex;
+        width: 187px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        margin: auto;
     }
     
     .team_member_wrapper h3 {
@@ -144,6 +153,12 @@
   .swiper-button-prev, .swiper-button-next{
     color: white !important;
     width:40px!important;
+}
+.swiper-button-prev{
+    left: 5px !important;
+}
+.swiper-button-next{
+    right: 5px !important;
 }
 .swiper-button-prev::after, .swiper-button-next::after{
     font-size: 15px !important;
