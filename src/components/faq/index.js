@@ -16,11 +16,11 @@ function Faq() {
                 </div>
                 <div className="faq_wrapper">
                     <h3>How much does a Grumpy Bear cost?</h3>
-                    <p>The Grumpy Bear Town Club will begin at 0.1 ETH + Gas Fee for the first 2’500 pieces. Afterwards the price rise to 0.2 and later to 0.25 ETH + Gas Fee for the pieces between 2’001 – 5’000, and respectively 5’001 – 10’000.</p>
+                    <p>The official Grumpy Bear Town Club sale will begin at 0.15 ETH + Gas Fee for the first 2’500 pieces. Afterwards the price rises to 0.2 for the NFTs between 2’001 – 5’000 and later to 0.25 ETH + Gas Fee for the pieces between 5’001 – 10’000.</p>
                 </div>
                 <div className="faq_wrapper">
-                    <h3>When its the minting date?</h3>
-                    <p>The mint date will be X. Minting will go live at 19:00 UTC. The total supply will be 10’000 Grumpy Bears.</p>
+                    <h3>When is the minting date?</h3>
+                    <p>The mint date will be on 31th May. Minting will go live at 19:00 UTC. The total supply will be 10’000 Grumpy Bears.</p>
                 </div>
                 <div className="faq_wrapper">
                     <h3>Will there be a presale?</h3>

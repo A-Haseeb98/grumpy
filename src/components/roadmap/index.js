@@ -13,8 +13,8 @@ function Roadmap() {
                         <img src={watch} alt="watch" />
                     </div>
                     <div className="sec_head">
-                        <h2>Important Notice!</h2>
-                        <p>There is one Grumpy Bear with a Rolex GMT-Master 2 Pepsi. The one who  mints this NFT will be rewarded with an original one worth around 30’000 USD!</p>
+                        <h2>IMPORTANT NOTICE! </h2>
+                        <p>There is one Grumpy Bear with a Rolex GMT-Master II Pepsi. The one who  mints this NFT will be rewarded with an original one worth around 30’000 USD!</p>
                     </div>
                 </div>
                 <div className="roadmap_steps_wrapper">
@@ -24,7 +24,7 @@ function Roadmap() {
                             <h1>10%</h1>
                         </div>
                         <div className="road_p">
-                            <p>Giveaway of 10 NFT’s for the most active discord and instagram users</p>
+                            <p>Giveaway of 10 NFTs for the most active discord and instagram users</p>
                         </div>
                     </div>
                     <div className="step_container">
@@ -32,7 +32,7 @@ function Roadmap() {
                             <h1>25%</h1>
                         </div>
                         <div className="road_p">
-                            <p>Airdrop 20 NFT’s to random twenty holders</p>
+                            <p>Airdrop 20 NFTs to random twenty holders</p>
                         </div>
                     </div>
                     <div className="step_container">
@@ -48,7 +48,7 @@ function Roadmap() {
                             <h1>75%</h1>
                         </div>
                         <div className="road_p">
-                            <p>We will launch our own grumpy bear town club merchandising.</p>
+                            <p>We will launch our own Grumpy Bear Town Club merchandising. All holders will get a special surprise! </p>
                         </div>
                     </div>
                     <div className="step_container">

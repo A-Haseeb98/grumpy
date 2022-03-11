@@ -1,9 +1,10 @@
 import "./style.css"
 import rubel from "../../assets/images/rubel.png"
-import batrok from "../../assets/images/batrok.png"
+import batrok from "../../assets/images/batrok_new.png"
 import babaram from "../../assets/images/babaram.png"
 import ggrol from "../../assets/images/ggrol.png"
 import savin from "../../assets/images/savin.png"
+import new1 from "../../assets/images/new.png"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination"
@@ -46,6 +47,11 @@ function Team() {
                     <h3>@SPPR</h3>
                     <p>Full Stack and</p>
                     <p>Blockchain</p>
+                </div>
+                <div className="team_member_wrapper">
+                        <img src={new1} alt="Mrwonkerz" />
+                        <h3>@MrWonkerz</h3>
+                        <p>Technical support and development</p>
                 </div>
             </div>
             <div className='carousal_contaier'>
@@ -99,6 +105,13 @@ function Team() {
                         <p>Full Stack and</p>
                         <p>Blockchain</p>
                     </div></SwiperSlide>
+                    <SwiperSlide>  <div className="team_member_wrapper">
+                        <img src={new1} alt="Mrwonkerz" />
+                        <h3>@MrWonkerz</h3>
+                        <p>Technical support and</p>
+                        <p>development</p>
+                    </div></SwiperSlide>
+                    
 
                 </Swiper>
             </div>
