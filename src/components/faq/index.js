@@ -23,10 +23,7 @@ function Faq() {
                     <h3>When is the minting date?</h3>
                     <p>The mint date will be on 31th May. Minting will go live at 19:00 UTC. The total supply will be 10’000 Grumpy Bears.</p>
                 </div>
-                <div className="faq_wrapper">
-                    <h3>Will there be a presale?</h3>
-                    <p>Of course! Stage 1 «PIONEER GRUMPY BEARS» We will host a presale event “stage 1- Pioneer Grumpy Bears”, starting XX. The presale will last XX hours and be accessible to ONLY WHITELISTED •MEMBERS!. This will last X hours and will BE ACCESIBLE just for WHITLISTED MEMBERS.</p>
-                </div>
+        
                 <div className="faq_wrapper">
                     <h3>Will there be a presale?</h3>
                     <p>There will be a presale. This will only be available to whitelist members. There are 1,000 seats available. The price in the presale will be only 0.1 ETH. You can find out how to qualify for the whitelist in our Discord channel.</p>
