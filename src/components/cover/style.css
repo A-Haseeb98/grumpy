@@ -3,7 +3,7 @@
 }
 
 .cover_container{
-    background: transparent url('../../assets/images/bg1.png') ;
+    background: transparent url('../../assets/images/bg1-min.png') ;
     background-size: 100%;    /* background-size: auto auto; */
 
     background-position: center bottom;
@@ -149,7 +149,7 @@
         display: block;
     }
     .cover_container{
-        background: transparent url('../../assets/images/m_cover.png') ;
+        background: transparent url('../../assets/images/m_cover-min.png') ;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

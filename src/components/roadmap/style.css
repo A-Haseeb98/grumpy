@@ -1,7 +1,7 @@
 .roadmap_container{
     padding-bottom: 100px;
     padding-top: 100px;
-    background: transparent url('../../assets//images/bg3.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../../assets//images/bg3-min.png') 0% 0% no-repeat padding-box;
     width: 100%;
     background-color: darkgoldenrod;
     background-repeat: no-repeat;
@@ -105,14 +105,10 @@
 
     .roadmap_container{
         padding: 50px 20px;
-        background: transparent url('../../assets//images/bg3.png') 0% 0% no-repeat padding-box;
         width: 100%;
-        background-color: darkgoldenrod;
-        background-repeat: no-repeat;
         background-size: cover;
     }
     .sub_roadmap_container{
-        background: #6CB1ED 0% 0% no-repeat padding-box;
         width: 100%;
         max-width: none;
         margin: 0 auto;

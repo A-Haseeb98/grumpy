@@ -1,10 +1,10 @@
 import "./style.css"
-import bear1 from "../../assets/images/new2.png"
-import bear2 from "../../assets/images/new1.png"
+import bear1 from "../../assets/images/new2-min.png"
+import bear2 from "../../assets/images/new1-min.png"
 import logo from "../../assets/images/cover_center.png"
 import Navbar from '../navbar/index'
 import clogo from "../../assets/images/mobile_cover_header.png"
-import mBear from "../../assets/images/mobile.png"
+import mBear from "../../assets/images/mobile-min.png"
 
 
 function Cover() {

@@ -1,10 +1,10 @@
 import "./style.css"
 import rubel from "../../assets/images/rubel.png"
-import batrok from "../../assets/images/batrok_new.png"
+import batrok from "../../assets/images/batrok_new_min.png"
 import babaram from "../../assets/images/babaram.png"
 import ggrol from "../../assets/images/ggrol.png"
 import savin from "../../assets/images/savin.png"
-import new1 from "../../assets/images/new.png"
+import new1 from "../../assets/images/new_min.png"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination"

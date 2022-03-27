@@ -1,5 +1,5 @@
 .team_container{
-    background: transparent url('../../assets/images/bg4.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../../assets/images/bg4-min.png') 0% 0% no-repeat padding-box;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -59,23 +59,16 @@
         display: block;
     }
     .team_container{
-        background: transparent url('../../assets/images/bg4.png') 0% 0% no-repeat padding-box;
-        background-size: cover;
+
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    .team_main_heading h1{
-        color: #D9D344;
-    }
+
     .team_members{
         width: 100%;
         max-width: none;
-        margin: 0 auto;
         margin-top: 50px;
-        display: flex;
         justify-content: space-between;
-        align-items: flex-start;
-        flex-wrap: wrap;
         display: none;
     
     }
